@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 경매 시스템</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="auction-container">
+        <h1>경매 시스템</h1>
+        <div id="player-info">
+            <h2>경매 대상</h2>
+            <p>이름: <span id="player-name">홍길동</span></p>
+            <p>현재 몸값: <span id="current-bid">1000만원</span></p>
+        </div>
+        <div id="bid-form">
+            <input type="number" id="bid-amount" placeholder="입찰 금액">
+            <button id="bid-button">입찰하기</button>
+        </div>
+        <div id="timer">
+            남은 시간: <span id="time-left">05:00</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
